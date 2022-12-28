@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#task{
+
+  .container{
+
+ .task1{
+     .button{
+ 
+  display: flex;
+  justify-content: space-between; 
+  margin: 0 auto;
+  width: 50%;
+  padding: 15px 17px;
+  
+.first{
+    cursor: pointer;
+    padding: 15px 17px;
+    background-color: red;
+    border: 1px red;
+    color: #fff;
+    
+}
+.second{
+    cursor: pointer;
+    padding: 15px 17px;
+    background-color: rgb(75, 167, 228);
+    border: 1px red;
+    color: #fff;
+}
+.third{
+    cursor: pointer;
+    padding: 15px 17px;
+    background-color: rgb(220, 224, 161);
+    border: 1px rgb(220, 224, 161);
+    color: #fff;
+    
+}
+.fourth{
+    cursor: pointer;
+    padding: 15px 17px; 
+   background-color:  rgb(12, 234, 49);
+   border:1px rgb(12, 234, 49);
+   color: #fff;
+}
+} 
+
+.alerts{ display: flex;
+    gap: 10px;
+    flex-direction: column; 
+align-items: flex-end;
+    .fa-solid.fa-xmark{
+        padding-top: 7px;
+        cursor: pointer;
+    }
+    
+    .cart{
+        display: flex;
+        justify-content: space-between;
+      width: 350px;
+      border: 16px solid rgb(232, 232, 232);
+      background-color: rgb(232, 232, 232);
+     
+     
+    .fa-solid.fa-exclamation{
+ 
+          border-radius: 20px;
+        padding: 10px 16px;
+        background-color: red;
+        color: white;
+
+    } 
+   
+     
+      
+     
+      }
+      .cart1{
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+      border: 16px solid rgb(75, 167, 228);
+      background-color: rgb(75, 167, 228);
+      .fa-solid.fa-info{
+
+        border-radius: 20px;
+        padding: 10px 16px;
+      background-color: rgb(19, 158, 244);
+      color: white;
+  } 
+    
+    }
+    .cart2{
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+      border: 16px solid rgb(220, 224, 161);
+      background-color: rgb(220, 224, 161);
+      .fa-solid.fa-triangle-exclamation{
+        font-size: 30px;
+        padding-left: 5px;
+       color: rgb(255, 251, 0);
+  }
+    
+    }
+    .cart3{
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+      border: 16px solid rgb(12, 234, 49);
+      background-color:  rgb(12, 234, 49);
+
+      .fa-solid.fa-circle-check{
+        font-size: 30px;
+        padding-left: 5px;
+      }
+    
+    }
+    }
+ }
+
+
+.task2{
+
+  left: 40%;
+  top: 18%;
+  position: fixed;
+  z-index: 1; 
+  .logorreg{
+    text-align: center;
+font-size: 25px;
+width: 355px;
+
+    p{
+  margin-top: 15px;
+  color: rgb(60, 20, 6)  ;
+}
+button{
+  font-size: 25px;
+margin-top: 15px;
+cursor: pointer;
+color: orangered;
+background-color: beige;
+border-radius: 25px;
+padding: 12px 12px;
+&:hover{
+
+  color: #fff;
+  background-color: #000;
+  transition: calc(0.8s);
+
+}
+}
+  }
+  .forms1{display: flex;
+   align-items: center;
+    flex-direction: column;
+    left: 38%;
+    top: 18%;
+    position: fixed;
+    z-index: 2; 
+    
+ 
+    .x5 {cursor: pointer;
+display: flex;
+position: absolute;
+right:15px;
+top: 5px;
+    } 
+
+    label{display: flex;
+    justify-content: center;
+    margin-top: 15px;
+padding: 5px;
+input{
+  padding: 8px;
+}
+
+
+}
+    
+  
+  
+  width: 400px;
+    height: 400px;
+  
+ 
+    background-color: rgb(113, 173, 247);
+   padding: 15px 15px;
+ 
+  
+
+
+  }
+
+  .forms2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    left: 38%;
+    top: 18%;
+    position: fixed;
+    z-index: 2; 
+    padding-top: 55px;
+    
+    .x2 {cursor: pointer;
+      display: flex;
+      position: absolute;
+      right:15px;
+      top: 5px;
+          } 
+      
+          label{display: flex;
+          justify-content: center;
+          margin-top: 25px;
+          input{
+            padding: 20px;
+          }
+
+
+     }
+          width: 400px;
+          height: 400px;
+       
+          background-color: rgb(113, 173, 247);
+        
+  }
+
+
+}
+.task3{ display: flex;
+  justify-content: center;
+
+    button{
+      background-color: aqua;
+      border-color: aqua;
+     display: flex;
+     cursor: pointer;
+     font-size: 30px;
+   position:absolute;
+   top: 55%;
+   left: 42.4%;
+     
+    }
+    .conta{
+
+    .term{ 
+      width: 500px;
+      height: 400px;
+   position: absolute;
+   position: fixed;
+    overflow-y: scroll;
+  
+   z-index: 2;
+   top: 18%;
+   right: 33%;
+      background-color: rgb(226, 122, 52);
+    }
+      .x2{
+        cursor: pointer;
+        position: absolute;
+        right: 2px;
+      
+      p{
+        padding-top: 15px;
+      }
+    }
+    }
+  }
+
+
+
+
+
+
+
+
+.hidden{
+    display: none !important;
+} 
+
+.blure{
+  filter: blur(3px);
+}
+.blure2{
+  filter:blur(-3px)
+}
+
+
+  }
+
+}
+
+  
